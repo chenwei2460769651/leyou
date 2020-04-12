@@ -1,0 +1,33 @@
+继承通用的Mapper<T>,必须指定泛型<T>
+
+
+查询
+List<T> select(T t)
+根据T对象中的属性名称查询,类似于select * from table where t.username=xxx and t.mobile = xxxx
+
+T selectOne(T t)
+如果断定T对象的查询条件是一个,可以调用此方法,返回单个对象
+T selectByPrimaryKey(Object id)
+根据主键查询
+
+修改
+int updateByPrimaryKeySelective(T t)
+根据主键更新数据,T对象里面有什么属性就更新什么属性,如果T对象没有主键,抛出异常
+int updateByPrimaryKey(T t)
+根据主键更新数据,需要把对象中所有的字段全部填充才能调用此方法,一般不常用!
+int updateByPrimaryKeySelective(T t)
+根据主键更新数据,T对象里面有什么属性就更新什么属性,如果T对象没有主键,抛出异常
+
+新增
+int insertSelective(T t)
+插入数据,需要有主键,有什么属性插入什么属性
+
+int insert(T t)
+插入数据,需要有主键,需要数据库表中的所有字段全都存在,否则插入失败,此方法不常用
+
+删除
+int delete(T t)
+根据条件删除数据,原理同select(T)
+
+int deleteByPrimaryKey(T t)
+根据主键删除

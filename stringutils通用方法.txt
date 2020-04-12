@@ -1,0 +1,32 @@
+1. 检查字符串是否为空：
+
+static boolean isBlank(CharSequence str) 判断字符串是否为空或null;
+static boolean isNotBlank(CharSequence str) 判断字符串是否非空或非null;
+
+判断一个字符串是否为空，空格作非空处理。 
+StringUtils.isEmpty(null) = true 
+StringUtils.isEmpty("") = true
+
+判断一个字符串是否非空，空格作非空处理.
+
+StringUtils.isNotEmpty(null) = false StringUtils.isNotEmpty("") = false
+
+StringUtils.isNotEmpty(" ") = true
+
+StringUtils.isNotEmpty("bob") = true
+
+StringUtils.isNotEmpty(" bob ") = true
+
+五、 字符串比较:
+
+判断两个字符串是否相等，有非空处理。
+
+StringUtils.equals(null, null) = true
+
+StringUtils.equals(null, "abc") = false
+
+StringUtils.equals("abc", null) = false
+
+StringUtils.equals("abc", "abc") = true
+
+StringUtils.equals("abc", "ABC") = false

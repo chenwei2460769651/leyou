@@ -1,0 +1,242 @@
+POST http://localhost:8087/accredit?username=chenwei&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=102440&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T041422.400.json
+
+###
+
+POST http://localhost:8085/code?username=chenwei&password=123456&code=712121&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=712121&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T041326.400.json
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=712121&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/resgister?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T032533.404.json
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T032532.404.json
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&code=184755&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T032530.404.json
+
+###
+
+POST http://localhost:8085/register?username=chenwei&password=123456&phone=13026153902&code=184755
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T032324.404.json
+
+###
+
+POST http://localhost:8085/code?username=chenwei&password=123456&phone=13026153902&code=&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=17340532719
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902&phone=17340532719&phone=13593868090&phone=13593868090&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902&phone=17340532719&phone=13593868090&phone=13593868090
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902&phone=17340532719&phone=13593868090
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902&phone=17340532719
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902&phone=17340532719
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085/code?phone=13026153902&phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8085?phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T015450.404.json
+
+###
+
+POST http://localhost:8085/code?phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T015225.500.json
+
+###
+
+POST http://localhost:8085/code?phone=13026153902
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-07T015208.500.json
+
+###
+
+GET http://localhost:8085/check/15855410440/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054841.200.json
+
+###
+
+GET http://localhost:8085/check/13600527634/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054818.200.json
+
+###
+
+GET http://localhost:8085/check/13600527634/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054757.200.json
+
+###
+
+GET http://localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054710.200.json
+
+###
+
+GET http://localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054624.404.json
+
+###
+
+GET http://localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054457.404.json
+
+###
+
+GET localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET localhost:8085/check/zhangsan/1/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8085/check/zhangsan/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-04T054301.404.json
+
+###
+
